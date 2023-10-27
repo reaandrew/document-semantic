@@ -50,6 +50,7 @@ jobs:
         run: "[[ -f package-lock.json || -f npm-shrinkwrap.json ]] && npm ci || true"
       - name: Rename README to index.md
         run: |
+          mkdir -p content
           cp README.md content/index.md
       - name: Build with Hugo
         env:
