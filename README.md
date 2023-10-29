@@ -28,7 +28,7 @@ Additions or updates that don't modify the core content but enhance its comprehe
 Corrections and enhancements that focus on refining the document's quality.
 
 - **Text Fixes (TF)**: Corrections to spelling, grammar, or punctuation.
-- **Data and Link Fixes (DLF)**: Minor updates to footnotes and fixing broken links.
+- **Data and Link Fixes (DF)**: Minor updates to footnotes and fixing broken links.
 
 ### Short Codes
 The short codes, concise in nature, capture the essence of each change, simplifying communication about document updates. Adopting a standardized semantic system for documents ensures clarity, efficiency, and collaboration.
