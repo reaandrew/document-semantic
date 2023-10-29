@@ -1,4 +1,4 @@
-# Document Semantic
+# Semantic Versioning for Documents
 
 _Inspired by SemVer, tailored for clear and concise document management in Markdown format._
 
@@ -14,7 +14,7 @@ Indicates that the document is newly created and has not been subject to any upd
 
 Significant changes that might confuse readers familiar with a previous version.
 
-**Initial Release (IR)**
+**Stable Release (IR)**
 
 Indicate that the document has reached a stable point and should be marked as version 1.0.0.
 
