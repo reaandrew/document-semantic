@@ -1,0 +1,11 @@
+code{
+    padding: 1em;
+}
+code span{
+    margin-left: 1em;
+}
+
+h3{
+    font-size:1.5em;
+    text-decoration: underline;
+}

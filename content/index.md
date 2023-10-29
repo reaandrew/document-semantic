@@ -32,3 +32,95 @@ Corrections and enhancements that focus on refining the document's quality.
 
 ### Short Codes
 The short codes, concise in nature, capture the essence of each change, simplifying communication about document updates. Adopting a standardized semantic system for documents ensures clarity, efficiency, and collaboration.
+
+----
+
+## Example
+
+### 1. New Document (v1.0.0)
+
+You create a fresh example.md document:
+
+```markdown
+
+---
+title: "Security Protocols"
+version: "1.0.0"
+---
+
+## Introduction
+This document outlines the security protocols for our organization.
+
+## Data Encryption
+Data must be encrypted using AES-256 algorithm.
+
+## Password Policy
+Use stromg passwords that are at least 12 characters long.
+```
+
+Git commit message:
+
+```bash
+git commit -m "New Document: Initial creation. [ND]"
+```
+
+### 2. Minor Update (v1.1.0)
+
+Adding a new section about Two-Factor Authentication:
+
+```markdown
+## Two-Factor Authentication
+Enable two-factor authentication for all critical systems.
+```
+
+Commit message:
+
+```bash
+git commit -m "Added section on Two-Factor Authentication. [NC]
+```
+
+### 3. Major Update (v2.0.0)
+
+You radically change the meaning of the Data Encryption section, which could confuse readers familiar with the previous version:
+
+```markdown
+## Data Encryption
+Data must be encrypted using RSA algorithm.
+```
+
+Commit message:
+
+```bash
+git commit -m "Changed encryption algorithm from AES-256 to RSA. [CC]
+```
+
+### 4. Patch Update (v2.0.1)
+
+You correct some typos and fix a broken link:
+
+```markdown
+## Password Policy
+Use strong passwords that are a minimum of 12 characters long.
+```
+
+Commit message:
+
+```bash
+git commit -m "Fixed typos and clarified password requirements. [TF]"
+```
+
+### 5. Minor Update (v2.1.0)
+
+Updated Two-Factor Authentication section for better clarity:
+
+```markdown
+## Two-Factor Authentication
+Two-Factor Authentication (2FA) should be enabled for all critical systems. 2FA provides an extra layer of security beyond just passwords.
+```
+
+Git commit message:
+
+```bash
+git commit -m "Improved clarity in Two-Factor Authentication section. [CE]"
+```
+
