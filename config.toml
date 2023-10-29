@@ -1,0 +1,15 @@
+# config.toml
+layoutDir = "layouts"
+contentDir = "content"
+publishDir = "public"
+
+[params]
+mainSections = ["sections-you-want-to-display"]
+
+[[outputs]]
+home = ["HTML"]
+section = ["HTML"]
+...
+
+[index]
+layout = "page" # This is the layout that Hugo will use for your homepage
