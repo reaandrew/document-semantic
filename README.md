@@ -6,7 +6,9 @@ The inception of Document Semantic was driven by the need to maintain effective 
 
 ## New Document
 
-- **New Document (ND)**: Indicates that the document is newly created and has not been subject to any updates or changes.
+**New Document (ND)**
+
+Indicates that the document is newly created and has not been subject to any updates or changes.
 
 ## Major Semantic Increment
 
