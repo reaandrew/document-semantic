@@ -14,6 +14,10 @@ Indicates that the document is newly created and has not been subject to any upd
 
 Significant changes that might confuse readers familiar with a previous version.
 
+**Initial Release (IR)**
+
+Indicate that the document has reached a stable point and should be marked as version 1.0.0.
+
 **Content Change (CC)**
 
 Major changes to the document's core content fall under this category. This could include altering key arguments, revising primary objectives, or modifying the main outcomes. Such changes can redefine the document's purpose, narrative, or message, thereby requiring readers to essentially re-learn the content.
